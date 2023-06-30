@@ -1,0 +1,135 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #0aa3df;
+    padding: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-image: url('background1.jpeg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px 0;
+    color: #000000;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #0ba022;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* About Section Styles */
+  .about {
+    background-color: #8ec1e6;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  /* Products Section Styles */
+  .products {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .products h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .product-card {
+    display: inline-block;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(31, 173, 9, 0.1);
+  }
+  
+  .product-card img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .product-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    font-size: 16px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
